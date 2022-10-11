@@ -7,6 +7,7 @@ Feature: Google Searching
     When the search phrase "panda" is entered
     Then results for "panda" are shown
     And the related results include Panda Express
+    And it is working
 
   Scenario Outline: Simple Google searches
     Given a web browser is on the Google page
