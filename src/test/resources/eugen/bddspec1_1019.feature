@@ -5,8 +5,8 @@ Feature: the feature
 @TSCID2116
 	Scenario: scenario1
 		Given asdf
-		When adf
-		Then afd
+		When asdf
+		Then asdf
 
 @TSCID2117
 	Scenario: scenario1

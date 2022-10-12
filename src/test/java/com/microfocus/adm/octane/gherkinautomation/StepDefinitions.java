@@ -11,6 +11,10 @@ public class StepDefinitions {
          System.out.println("The test worked!");
     }
 
+    @When("asdf")
+    public void asdf() {assertEquals(1, 1);}
+
+
     @When("^opening the live chat$")
     public void openingTheLiveChat() {
         System.out.println("opening live chat!");
