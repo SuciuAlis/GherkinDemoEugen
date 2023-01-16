@@ -11,6 +11,7 @@ Feature: Google Searching
     Then results for "panda" are shown
     And the related results include Panda Express
     And it is working
+    And new step
 
 @TSCID1879024
   Scenario Outline: Simple Google searches

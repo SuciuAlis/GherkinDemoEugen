@@ -161,6 +161,7 @@ public class StepDefinitions {
     }
 
     @When("asdfasdfa")
+    @And("new step")
     public void oneWhen() {assertEquals(1, 1);}
 
     @Then("adfafas")
