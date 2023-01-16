@@ -159,4 +159,14 @@ public class StepDefinitions {
     public void t2() {
         assertEquals(6,6);
     }
+
+    @When("asdfasdfa")
+    public void oneWhen() {assertEquals(1, 1);}
+
+    @Then("adfafas")
+    public void oneThen() {assertEquals(1,1);}
+
+    @Given("thatn")
+    public void oneGiven() {assertEquals(1, 1);}
+
 }
