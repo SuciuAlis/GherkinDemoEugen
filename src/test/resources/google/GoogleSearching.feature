@@ -5,7 +5,7 @@ Feature: Google Searching
 
    # Author: Andy
 @TSCID1879023
-  Scenario: Simple Google search1
+  Scenario: Simple Google search
     Given a web browser is on the Google page
     When the search phrase "panda" is entered
     Then results for "panda" are shown
