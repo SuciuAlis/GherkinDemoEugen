@@ -1,12 +1,12 @@
 #Auto generated Octane revision tag
 @TID1001REV0.2.0
-Feature: test1
-	Scenario: test1
-		Given ddd
-		When fff
+Feature: aaa
+	Scenario: ghsimplu
+		Given df
+		When ff
 		Then ggg
 
-	Scenario Outline: outline test
+	Scenario Outline: ghoutline
 		Given <param1> 
 		When  <param2>  
 		Then  <param3>  
