@@ -250,4 +250,20 @@ public class StepDefinitions {
     @Then("the client sees in his cart that instead of the original price {string} per unit of {string} he has to pay a new price which is {string} percentage of the original price {string}")
     public void theClientSeesInHisCartThatInsteadOfTheOriginalPricePerUnitOfHeHasToPayANewPriceWhichIsPercentageOfTheOriginalPrice(String arg0, String arg1, String arg2, String arg3) {
     }
+
+    @And("it is working")
+    public void itIsWorking() {
+    }
+
+    @Given("a test")
+    public void aTest() {
+    }
+
+    @When("you run it")
+    public void youRunIt() {
+    }
+
+    @Then("you have results")
+    public void youHaveResults() {
+    }
 }

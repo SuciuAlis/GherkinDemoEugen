@@ -25,3 +25,7 @@ Feature: Google Searching
       | panda    | Panda Express |
       | elephant | Elephant Man  |
 
+  Scenario: Add one test scenario by Eugen
+    Given a test
+    When you run it
+    Then you have results
