@@ -2,14 +2,10 @@ package com.microfocus.adm.octane.gherkinautomation;
 
 import static org.junit.Assert.*;
 
-import cucumber.api.java.de.Angenommen;
-import cucumber.api.java.de.Dann;
-import cucumber.api.java.de.Und;
-import cucumber.api.java.de.Wenn;
+
 import cucumber.api.java.en.*;
-import cucumber.api.java.gl.Cando;
-import cucumber.api.java.gl.Dado;
-import cucumber.api.java.gl.Entón;
+
+
 
 public class StepDefinitions {
     @Given("^the Google Chrome browser is open$")
@@ -290,49 +286,5 @@ public class StepDefinitions {
 
     @Then("ggg")
     public void ggg() {
-    }
-
-    @Dado("tr")
-    public void tr() {
-    }
-
-    @Cando("ty")
-    public void ty() {
-    }
-
-    @Entón("test")
-    public void test() {
-    }
-
-    @Angenommen("sdsd")
-    public void sdsd() {
-    }
-
-    @Wenn("ds")
-    public void ds() {
-    }
-
-    @Dann("sdfsdf")
-    public void sdfsdf() {
-    }
-
-    @Und("sdf")
-    public void sdf() {
-    }
-
-    @Wenn("sdg")
-    public void sdg() {
-    }
-
-    @Dann("sddf")
-    public void sddf() {
-    }
-
-    @Dado("aaaa<param{int}>")
-    public void aaaaParam(int arg0) {
-    }
-
-    @Cando("aaaaaaaaaaaaa<param{int}>")
-    public void aaaaaaaaaaaaaParam(int arg0) {
     }
 }
