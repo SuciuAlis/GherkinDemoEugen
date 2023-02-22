@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results/Elisheva_OctaneGherkinResults.xml"},
-        features="src/test/resources/elisheva")
+        features="src/test/resources/eugen")
 public class EugenTest {
 }
