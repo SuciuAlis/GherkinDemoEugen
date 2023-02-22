@@ -1,6 +1,6 @@
 Feature: Cashier function that adds products to a cart and display the total price
 
-  Scenario: As a client user I want to add products to my cart and see the total price
+  Scenario: As a client user I want to add products to my cart and see the total price added
     Given a client user on the dashboard page of the application
     When a client adds a product to the cart
     Then the product is added to his card
