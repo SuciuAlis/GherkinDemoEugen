@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 
 import cucumber.api.java.en.*;
+import cucumber.api.java.gl.*;
 
 
 
@@ -287,4 +288,26 @@ public class StepDefinitions {
     @Then("ggg")
     public void ggg() {
     }
+
+    @Dado("tr")
+    public void tr() {
+    }
+
+    @Cando("ty")
+    public void ty(){
+    }
+
+    @Entón("tyy")
+    public void tyy(){}
+
+    @Dado("ssss {string}")
+    public void emptyDado(String param1){
+    }
+
+    @Cando("sss {string}")
+    public void emptyCando(String param2){}
+
+    @Entón("testgl")
+    public void testgl(){}
+
 }
