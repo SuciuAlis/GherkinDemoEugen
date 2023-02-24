@@ -3,6 +3,10 @@ package com.microfocus.adm.octane.gherkinautomation;
 import static org.junit.Assert.*;
 
 
+import cucumber.api.java.de.Angenommen;
+import cucumber.api.java.de.Dann;
+import cucumber.api.java.de.Und;
+import cucumber.api.java.de.Wenn;
 import cucumber.api.java.en.*;
 import cucumber.api.java.gl.*;
 
@@ -306,6 +310,39 @@ public class StepDefinitions {
     @Cando("sss {string}")
     public void emptyCando(String param2){}
 
+    @Angenommen("sdsd")
+    public void sdsd() {
+    }
 
+    @Wenn("ds")
+    public void ds() {
+    }
 
+    @Dann("sdfsdf")
+    public void sdfsdf() {
+    }
+
+    @Und("sdf")
+    public void sdf() {
+    }
+
+    @Wenn("sdg")
+    public void sdg() {
+    }
+
+    @Dann("sddf")
+    public void sddf() {
+    }
+
+    @Given("rfr")
+    public void rfr() {
+    }
+
+    @When("gyb")
+    public void gyb() {
+    }
+
+    @Then("wrgvt")
+    public void wrgvt() {
+    }
 }
