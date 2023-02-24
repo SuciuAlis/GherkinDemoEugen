@@ -297,8 +297,7 @@ public class StepDefinitions {
     public void ty(){
     }
 
-    @Entón("tyy")
-    public void tyy(){}
+
 
     @Dado("ssss {string}")
     public void emptyDado(String param1){
@@ -307,7 +306,6 @@ public class StepDefinitions {
     @Cando("sss {string}")
     public void emptyCando(String param2){}
 
-    @Entón("testgl")
-    public void testgl(){}
+
 
 }
