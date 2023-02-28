@@ -345,4 +345,8 @@ public class StepDefinitions {
     @Then("wrgvt")
     public void wrgvt() {
     }
+
+    @Wenn("sdgqqAiciamschimbat")
+    public void sdgqqaiciamschimbat() {
+    }
 }
