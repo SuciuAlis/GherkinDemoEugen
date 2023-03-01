@@ -1,4 +1,4 @@
-Feature: Cashier function that adds products to a cart and display the total price
+Feature: Cashier function that adds products to a cart and display the total price test change named
 
   Scenario: As a client user I want to add products to my cart and see the total price added test change
     Given a client user on the dashboard page of the application
