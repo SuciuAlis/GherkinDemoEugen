@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-
 Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME unidad de negocio PYME
 
   Background: Acceder a Salesforce
@@ -7,7 +5,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
     When Inicio sesion con "usuario" y "password" validos en ambiente "qaminorco"
     Then Se logra ver la vista ejecutivo en la pagina de SF
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Centro atencion tarjetas CAT
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -37,7 +34,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Centro atención tarjetas (CAT) |CAT Tarjeta de débito |Revisión monto transacción|
       |Mayda Baez Valdes |17160778   |Centro atención tarjetas (CAT) |CAT Tarjeta de débito |Consulta compra inyectada|
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Fraudes
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -67,7 +63,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778  |Fraudes      |Web					|Menor a 35 uf|
       |Mayda Baez Valdes |17160778  |Fraudes      |Tarjeta de débito 		|Mayor a 35 uf|
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Equipo Especialista hipotecario  Backoffice chip  Post Firma chip
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -98,7 +93,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Equipo Post Firma Chip			|Post Firma Chip	|Carta Resguardo|
       |Mayda Baez Valdes |17160778   |Equipo Post Firma Chip			|Post Firma Chip	|Consulta CBR|
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Equipo legal chip  Unidad control y cuadratura contable ATM  Call Center Normaliza
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -130,7 +124,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Call Center Normaliza					 |T. Crédito						  |En mora cartera vencida / castigada|
       |Mayda Baez Valdes |17160778   |Call Center Normaliza					 |Crédito hipotecario				  |En mora cartera vencida / castigada|
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Unidad Custodia Centralizada
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -158,7 +151,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Unidad custodia centralizada	|Mandato						|Mandato								|
       |Mayda Baez Valdes |17160778   |Unidad custodia centralizada	|Mandato						|Escritura								|
 
-  @Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Unidad Custodia Centralizada y Unidad de garantias
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -191,7 +183,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Unidad de garantías			|Cartas de resguardo|Aprobación|
       |Mayda Baez Valdes |17160778   |Unidad de garantías			|Cartas de resguardo|Rechazo|
 
-@Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Unidadas de recaudaciones  Unidada control procesos Tarjetas  Equipo Activacion garantias chip
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
@@ -220,7 +211,6 @@ Feature: Creacion de subcasos con sla manual desde canales prioritarios PYME uni
       |Mayda Baez Valdes |17160778   |Equipo Activación Garantías Chip|Garantías Chip						|Consulta/Pedido/Estado de la Activación Hipotecaria|
       |Mayda Baez Valdes |17160778   |Equipo Activación Garantías Chip|Garantías Chip						|Emision Escritura|
 
-@Regresion @Continuidad
   Scenario Outline: Crear Subcaso PYME departamento Departamento operativo fiscalia Equipo Activacion y Pagos Chip
     Given Inicio sesion con en el usuario en SF "<usuario>"
     When Busco y selecciono el "<numeroCaso>" del resultado de la busqueda
