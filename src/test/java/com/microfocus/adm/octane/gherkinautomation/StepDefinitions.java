@@ -349,4 +349,72 @@ public class StepDefinitions {
     @Wenn("sdgqqAiciamschimbat")
     public void sdgqqaiciamschimbat() {
     }
+
+    @Given("Me encuentro en la pagina inicio de salesforce")
+    public void meEncuentroEnLaPaginaInicioDeSalesforce() {
+    }
+
+    @When("Inicio sesion con {string} y {string} validos en ambiente {string}")
+    public void inicioSesionConYValidosEnAmbiente(String arg0, String arg1, String arg2) {
+    }
+
+    @Then("Se logra ver la vista ejecutivo en la pagina de SF")
+    public void seLograVerLaVistaEjecutivoEnLaPaginaDeSF() {
+    }
+
+    @Given("Inicio sesion con en el usuario en SF {string}")
+    public void inicioSesionConEnElUsuarioEnSF(String arg0) {
+    }
+
+    @When("Busco y selecciono el {string} del resultado de la busqueda")
+    public void buscoYSeleccionoElDelResultadoDeLaBusqueda(String arg0) {
+    }
+
+    @And("Valido el campo tipo de registro que diga {string} en la vista casos")
+    public void validoElCampoTipoDeRegistroQueDigaEnLaVistaCasos(String arg0) {
+    }
+
+    @And("Valido que la etapa del caso sea {string}")
+    public void validoQueLaEtapaDelCasoSea(String arg0) {
+    }
+
+    @And("Presiono el boton {string} del componente casos relacionados")
+    public void presionoElBotonDelComponenteCasosRelacionados(String arg0) {
+    }
+
+    @And("Selecciono {string} en el campo unidad de negocio")
+    public void seleccionoEnElCampoUnidadDeNegocio(String arg0) {
+    }
+
+    @And("Selecciono {string} en el campo departamento")
+    public void seleccionoEnElCampoDepartamento(String arg0) {
+    }
+
+    @And("Selecciono {string} en el campo producto")
+    public void seleccionoEnElCampoProducto(String arg0) {
+    }
+
+    @And("Selecciono {string} en el campo categoria")
+    public void seleccionoEnElCampoCategoria(String arg0) {
+    }
+
+    @And("Ingreso fecha hoy en el campo fecha de vencimiento")
+    public void ingresoFechaHoyEnElCampoFechaDeVencimiento() {
+    }
+
+    @And("Ingreso {string} en el campo descripcion")
+    public void ingresoEnElCampoDescripcion(String arg0) {
+    }
+
+    @And("Presiono el boton guardar en el subcaso")
+    public void presionoElBotonGuardarEnElSubcaso() {
+    }
+
+    @Then("El sub caso se crea correctamente y me direcciona al page layout de este")
+    public void elSubCasoSeCreaCorrectamenteYMeDireccionaAlPageLayoutDeEste() {
+    }
+
+    @And("Visualizo la fecha en el campo Fecha de Vencimiento en el subcaso creado")
+    public void visualizoLaFechaEnElCampoFechaDeVencimientoEnElSubcasoCreado() {
+    }
 }
