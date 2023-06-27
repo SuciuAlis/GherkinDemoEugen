@@ -9,7 +9,7 @@ import cucumber.api.java.de.Und;
 import cucumber.api.java.de.Wenn;
 import cucumber.api.java.en.*;
 import cucumber.api.java.gl.*;
-
+import org.junit.Assert;
 
 
 public class StepDefinitions {
@@ -194,7 +194,7 @@ public class StepDefinitions {
 
     @When("a client adds a product to the cart")
     public void aClientAddsAProductToTheCart() {
-
+        assertTrue(false);
     }
 
     @Then("the product is added to his card")
