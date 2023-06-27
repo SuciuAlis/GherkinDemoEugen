@@ -4,7 +4,7 @@ Feature: Google Searching
   As a web surfer, I want to search Google, so that I can learn new things.
 
    # Author: Andy
-@TSCID1879023
+
   Scenario: Simple Google search
     Given a web browser is on the Google page
     When the search phrase "panda" is entered
@@ -13,7 +13,7 @@ Feature: Google Searching
     And it is working
     And new step
 
-@TSCID1879024
+
   Scenario Outline: Simple Google searches
     Given a web browser is on the Google page
     When the search phrase "<phrase>" is entered
