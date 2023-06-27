@@ -194,7 +194,7 @@ public class StepDefinitions {
 
     @When("a client adds a product to the cart")
     public void aClientAddsAProductToTheCart() {
-
+        assertEquals(3, 1+1);
     }
 
     @Then("the product is added to his card")
