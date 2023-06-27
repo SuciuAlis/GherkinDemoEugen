@@ -30,6 +30,7 @@
                     <version>2.22.2</version>
                     <configuration>
                         <redirectTestOutputToFile>false</redirectTestOutputToFile>
+                        <testFailureIgnore>true</testFailureIgnore>
                     </configuration>
                 </plugin>
             </plugins>

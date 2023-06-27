@@ -194,7 +194,9 @@ public class StepDefinitions {
 
     @When("a client adds a product to the cart")
     public void aClientAddsAProductToTheCart() {
-        assertTrue(false);
+        if (1+1 == 3)
+            assertTrue(true);
+        else assertEquals(1+1, 3);
     }
 
     @Then("the product is added to his card")
