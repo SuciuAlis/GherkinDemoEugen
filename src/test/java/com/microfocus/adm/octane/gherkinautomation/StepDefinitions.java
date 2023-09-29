@@ -417,4 +417,19 @@ public class StepDefinitions {
     @And("Visualizo la fecha en el campo Fecha de Vencimiento en el subcaso creado")
     public void visualizoLaFechaEnElCampoFechaDeVencimientoEnElSubcasoCreado() {
     }
+
+    @Given("step1Alis")
+    public void step1M(String arg0) {
+    }
+    
+    @When("step2Alis")
+    public void oneGiven() {
+        assertEquals(1, 1);
+    }
+
+     @Then("step4Alis")
+    public void step4() {
+        assertEquals(1, 1);
+    }
+    
 }
