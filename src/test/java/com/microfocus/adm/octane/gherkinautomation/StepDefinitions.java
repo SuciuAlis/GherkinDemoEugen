@@ -419,16 +419,16 @@ public class StepDefinitions {
     }
 
     @Given("step1Alis")
-    public void step1M(String arg0) {
+    public void step1Alis(String arg0) {
     }
     
     @When("step2Alis")
-    public void oneGiven() {
+    public void step2Alis() {
         assertEquals(1, 1);
     }
 
      @Then("step4Alis")
-    public void step4() {
+    public void step4Alis() {
         assertEquals(1, 1);
     }
     
