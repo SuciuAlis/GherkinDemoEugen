@@ -428,6 +428,7 @@ public class StepDefinitions {
 
      @Then("step4Alis")
     public void step4Alis() {
+         assertEquals(1, 2);
     }
     
 }
