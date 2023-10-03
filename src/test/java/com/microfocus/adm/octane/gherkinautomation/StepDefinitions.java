@@ -434,5 +434,18 @@ public class StepDefinitions {
     public void step4Alis() {
          assertEquals(1, 2);
     }
+
+    @Given("StepScenarioBDDAlis3")
+    public void StepScenarioBDDAlis3() {
+    }
+    
+    @When("WhenScenarioBDDAlis3")
+    public void WhenScenarioBDDAlis3() {
+    }
+
+     @Then("ThenScenarioBDDAlis3")
+    public void ThenScenarioBDDAlis3() {
+         assertEquals(1, 1);
+    }
     
 }
