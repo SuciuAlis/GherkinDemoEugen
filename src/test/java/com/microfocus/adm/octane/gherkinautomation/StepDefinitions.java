@@ -425,6 +425,10 @@ public class StepDefinitions {
     @When("step2Alis")
     public void step2Alis() {
     }
+    
+    @And("step2Alis1")
+    public void step2Alis1() {
+    }
 
      @Then("step4Alis")
     public void step4Alis() {
