@@ -1,7 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1010REV0.6.0
 Feature: F01Alis
-@TSCID1026
 	Scenario Outline: ScenarioAlisNew
 		Given <param1> StepAlisNew
 		When  <param2> WhenAlisNew
