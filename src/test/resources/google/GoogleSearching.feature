@@ -1,5 +1,4 @@
 #Auto generated Octane revision tag
-@BSPID30006REV0.2.0
 Feature: Google Searching
   As a web surfer, I want to search Google, so that I can learn new things.
 
