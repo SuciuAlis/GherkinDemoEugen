@@ -1,8 +1,5 @@
 # language: gl
-#Auto generated Octane revision tag
-@BSPID1003REV0.0.1
 Característica: terer
-@TSCID1025
 Escenario: ty
 Dado tr
 Cando ty
