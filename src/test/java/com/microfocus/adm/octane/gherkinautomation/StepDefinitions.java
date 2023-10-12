@@ -460,6 +460,19 @@ public class StepDefinitions {
     public void ThenAlisNew() {
          assertEquals(1, 1);
     }
+    
+    @Given("step1BDDNewOctane10_12")
+    public void step1BDDNewOctane10_12() {
+    }
+    
+    @When("step2BDDNewOctane10_12")
+    public void step2BDDNewOctane10_12() {
+    }
+
+     @Then("step3BDDNewOctane10_12")
+    public void step3BDDNewOctane10_12() {
+         assertEquals(1, 1);
+    }
 
     
     
