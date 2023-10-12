@@ -461,15 +461,15 @@ public class StepDefinitions {
          assertEquals(1, 1);
     }
     
-    @Given("{string} step1BDDNewOctane10_12")
+    @Given("step1BDDNewOctane10_12")
     public void step1BDDNewOctane10_12() {
     }
     
-    @When("{string} step2BDDNewOctane10_12")
+    @When("step2BDDNewOctane10_12")
     public void step2BDDNewOctane10_12() {
     }
 
-     @Then("{string} step3BDDNewOctane10_12")
+     @Then("step3BDDNewOctane10_12")
     public void step3BDDNewOctane10_12() {
          assertEquals(1, 1);
     }
