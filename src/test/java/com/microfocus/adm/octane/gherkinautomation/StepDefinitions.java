@@ -474,6 +474,17 @@ public class StepDefinitions {
          assertEquals(1, 1);
     }
 
+    @Given("givenStep16")
+    public void givenStep16() {
+    }
     
+    @When("whenStep16")
+    public void whenStep16() {
+    }
+
+     @Then("thenStep16")
+    public void thenStep16() {
+         assertEquals(1, 1);
+    }
     
 }
