@@ -486,5 +486,18 @@ public class StepDefinitions {
     public void thenStep16() {
          assertEquals(1, 1);
     }
+
+     @Given("givenBDDNewAlis")
+    public void givenBDDNewAlis() {
+    }
+    
+    @When("whenBDDNewAlis")
+    public void whenBDDNewAlis() {
+    }
+
+     @Then("thenBDDNewAlis")
+    public void thenBDDNewAlis() {
+         assertEquals(1, 1);
+    }
     
 }
