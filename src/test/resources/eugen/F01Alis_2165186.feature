@@ -1,7 +1,5 @@
 #Auto generated Octane revision tag
 @TID2165186REV0.2.0
-#Auto generated Octane revision tag
-@BSPID1012REV0.0.1
 Feature: F01Alis
 @TSCID1015
 	Scenario Outline: ScenarioAlisNew
