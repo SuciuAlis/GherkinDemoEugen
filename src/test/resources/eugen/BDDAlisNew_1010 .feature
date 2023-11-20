@@ -2,7 +2,7 @@
 @BSPID1012REV0.0.1
 Feature: F01Alis
 @TSCID1015
-	Scenario Outline: ScenarioAlisNew
+	Scenario Outline: ScenarioAlisNew2
 		Given <param1> StepAlisNew
 		When  <param2> WhenAlisNew
 		Then  <param3> ThenAlisNew
