@@ -499,5 +499,18 @@ public class StepDefinitions {
     public void thenBDDNewAlis() {
          assertEquals(1, 1);
     }
+
+    @Angenommen("sdsdA")
+    public void sdsdA() {
+    }
+
+    @Wenn("dsA")
+    public void dsA() {
+    }
+
+    @Dann("sdfsdfA")
+    public void sdfsdfA() {
+        assertEquals(1, 1);
+    }
     
 }
