@@ -512,5 +512,17 @@ public class StepDefinitions {
     public void sdfsdfA() {
         assertEquals(1, 1);
     }
+    @Given("GBDDNew12_6")
+    public void GBDDNew12_6() {
+    }
     
+    @When("WBDDNew12_6")
+    public void WBDDNew12_6() {
+    }
+
+     @Then("TBDDNew12_6")
+    public void TBDDNew12_6() {
+         assertEquals(1, 12);
+    }
+
 }
