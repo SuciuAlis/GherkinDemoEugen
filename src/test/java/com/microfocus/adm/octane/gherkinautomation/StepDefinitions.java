@@ -526,15 +526,15 @@ public class StepDefinitions {
     }
      
     @Given("GBDDNew12_samet")
-    public void GBDDNew12_6() {
+    public void GBDDNew12_samet() {
     }
     
     @When("WBDDNew12_samet")
-    public void WBDDNew12_6() {
+    public void WBDDNew12_samet() {
     }
 
      @Then("TBDDNew12_samet")
-    public void TBDDNew12_6() {
+    public void TBDDNew12_samet() {
          assertEquals(1, 12);
     }
 }
