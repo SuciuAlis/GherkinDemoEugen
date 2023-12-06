@@ -524,5 +524,17 @@ public class StepDefinitions {
     public void TBDDNew12_6() {
          assertEquals(1, 12);
     }
+     
+    @Given("GBDDNew12_samet")
+    public void GBDDNew12_6() {
+    }
+    
+    @When("WBDDNew12_samet")
+    public void WBDDNew12_6() {
+    }
 
+     @Then("TBDDNew12_samet")
+    public void TBDDNew12_6() {
+         assertEquals(1, 12);
+    }
 }
