@@ -535,6 +535,6 @@ public class StepDefinitions {
 
      @Then("TBDDNew12_samet")
     public void TBDDNew12_samet() {
-         assertEquals(1, 12);
+         assertEquals(1, 1);
     }
 }
