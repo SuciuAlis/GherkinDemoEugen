@@ -537,4 +537,16 @@ public class StepDefinitions {
     public void TBDDNew12_samet() {
          assertEquals(1, 1);
     }
+     @Given("GGG1")
+    public void GGG1() {
+    }
+    
+    @When("WWW2")
+    public void WWW2() {
+    }
+
+     @Then("TTT3")
+    public void TTT3() {
+         assertEquals(1, 2);
+    }
 }
