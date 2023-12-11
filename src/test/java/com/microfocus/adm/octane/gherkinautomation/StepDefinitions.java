@@ -549,4 +549,16 @@ public class StepDefinitions {
     public void TTT3() {
          assertEquals(1, 2);
     }
+     @Given("BDD2Alis1211GGG")
+    public void BDD2Alis1211GGG() {
+    }
+    
+    @When("BDD2Alis1211WWW")
+    public void BDD2Alis1211WWW() {
+    }
+
+     @Then("BDD2Alis1211TTT")
+    public void BDD2Alis1211TTT() {
+         assertEquals(1, 1);
+    }
 }
