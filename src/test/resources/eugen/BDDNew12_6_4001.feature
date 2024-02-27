@@ -1,5 +1,4 @@
 #Auto generated Octane revision tag
-@BSPID4001REV0.2.0
 Feature: Feature BDDNew12_6
 	Scenario: SBDDNew12_6
 		Given GBDDNew12_6
