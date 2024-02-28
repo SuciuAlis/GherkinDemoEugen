@@ -583,6 +583,6 @@ public class StepDefinitions {
     }
     @Then("BDDOctane2_28T")
     public void BDDOctane2_28T() {
-         assertEquals(true);
+         assertEquals(1, 1);
     }
 }
