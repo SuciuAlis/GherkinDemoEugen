@@ -574,6 +574,13 @@ public class StepDefinitions {
          assertEquals(1, 1);
     }
 
+    @Given("BDDOctane2_28G")
+    public void BDDOctane2_28G() {
+    }
+    
+    @When("BDDOctane2_28")
+    public void BDDOctane2_28() {
+    }
     @Then("BDDOctane2_28T")
     public void BDDOctane2_28T() {
          assertEquals(true);
