@@ -585,4 +585,15 @@ public class StepDefinitions {
     public void BDDOctane2_28T() {
          assertEquals(1, 1);
     }
+    @Given("BDD2Octane2_28G")
+    public void BDD2Octane2_28G() {
+    }
+    
+    @When("BDD2Octane2_28W")
+    public void BDD2Octane2_28W() {
+    }
+    @Then("BDD2Octane2_28T")
+    public void BDD2Octane2_28T() {
+         assertEquals(1, 12);
+    }
 }
