@@ -578,8 +578,8 @@ public class StepDefinitions {
     public void BDDOctane2_28G() {
     }
     
-    @When("BDDOctane2_28")
-    public void BDDOctane2_28() {
+    @When("BDDOctane2_28W")
+    public void BDDOctane2_28W() {
     }
     @Then("BDDOctane2_28T")
     public void BDDOctane2_28T() {
